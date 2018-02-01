@@ -1,0 +1,25 @@
+Name:Yu Sun
+
+Course:6160
+
+Clemson Email Address:ysun3@clemson.edu
+
+Project no:6
+
+Project due date:December 13 th, 2017
+
+Project description:Build a playable game that has a conclusion, include music and sound effects into the game, the game must be robust and free of memory leaks, implement a "god" mode for easier test.
+
+The easiest part of this project: Play music and sound effects in the game.
+
+Problems that I had in completing this project:
+1. The explosion stops the motion of the player, if there is a monster walking at the place where the player respawn, the player will die again, so I implement a invincible time after the respawn, the invincible time is a number of frames that decrease with the call of update, if the invincible time is larger than 0, the player is invincible, also I implement a flickering animation for the invincible time.
+2. The monsters have four different motion styles, the needle trap is steady and never moves, the gengar always walk forward, the gastly flies in the air, and the haunter flies and keep following the player.
+3. I implement a jump action for player to evade monsters. In the jump function, a velocity along Y axis is applied on the player, and the velocityY decreases by a certain value (gravity) with time until the player back to the original position on Y coordinate.
+4. The position and velocity of monsters are well designed and the difficulty is periodically increased so that the user can get familiar with the control also the game is not too easy to break through. 
+
+Sprites sources: 
+	Pikachu & Monsters: http://www.pokemongoapkfree.com.
+	Ash: http://pictures-and-images.net/content/ash-sprite-pokemon-images.html
+	Needle: http://foto-basa.com/image1data-2d-dungeon-background.htm
+Sound sources: http://www.youtube.com

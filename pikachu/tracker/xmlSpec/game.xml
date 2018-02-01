@@ -1,0 +1,243 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>Sun</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>8000</width>
+  <height>550</height>
+</world>
+
+<back>
+  <file>assets/checkerboard.bmp</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+
+<night>
+  <file>assets/night.png</file>
+  <factor>4</factor>
+  <transparency>false</transparency>
+</night>
+
+<mountains>
+  <file>assets/mountains.png</file>
+  <factor>3</factor>
+  <transparency>true</transparency>
+</mountains>
+
+<castle>
+  <file>assets/castle.png</file>
+  <factor>2</factor>
+  <transparency>true</transparency>
+</castle>
+
+<road>
+  <file>assets/longroad.png</file>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</road>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<Bat>
+  <file>assets/bat.png</file>
+  <startLoc x="50" y="40"/>
+  <frames>2</frames>
+  <imageWidth>185</imageWidth>
+  <imageHeight>114</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <transparency>true</transparency>
+</Bat>
+
+<Haunter>
+  <file>assets/haunter.png</file>
+  <startLoc x="50" y="40"/>
+  <frames>3</frames>
+  <imageWidth>68</imageWidth>
+  <imageHeight>51</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <safeDistance>100</safeDistance>
+  <chunk>
+    <size>9</size>
+    <distance>150</distance>
+  </chunk>
+</Haunter>
+
+<HaunterLeft>
+  <file>assets/haunterLeft.png</file>
+  <startLoc x="50" y="40"/>
+  <frames>3</frames>
+  <imageWidth>68</imageWidth>
+  <imageHeight>51</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</HaunterLeft>
+
+<Gastly>
+  <file>assets/gastly.png</file>
+  <startLoc x="550" y="60"/>
+  <frames>3</frames>
+  <imageWidth>77</imageWidth>
+  <imageHeight>66</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>-250</speedX>
+  <speedY>140</speedY>
+  <transparency>true</transparency>
+  <safeDistance>100</safeDistance>
+  <chunk>
+    <size>9</size>
+    <distance>150</distance>
+  </chunk>
+</Gastly>
+
+<GastlyLeft>
+  <file>assets/gastlyLeft.png</file>
+  <startLoc x="550" y="60"/>
+  <frames>3</frames>
+  <imageWidth>77</imageWidth>
+  <imageHeight>66</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</GastlyLeft>
+
+<Gengar>
+  <file>assets/gengar.png</file>
+  <startLoc x="800" y="373"/>
+  <frames>4</frames>
+  <imageWidth>56</imageWidth>
+  <imageHeight>48</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <safeDistance>100</safeDistance>
+  <chunk>
+    <size>9</size>
+    <distance>150</distance>
+  </chunk>
+</Gengar>
+
+<GengarLeft>
+  <file>assets/gengarLeft.png</file>
+  <startLoc x="800" y="373"/>
+  <frames>4</frames>
+  <imageWidth>56</imageWidth>
+  <imageHeight>48</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</GengarLeft>
+
+<Trap>
+  <file>assets/trap.png</file>
+  <startLoc x="0" y="378"/>
+  <frames>1</frames>
+  <imageWidth>119</imageWidth>
+  <imageHeight>49</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</Trap>
+
+<Ash>
+  <file>assets/ash.png</file>
+  <startLoc x="7900" y="347"/>
+  <frames>2</frames>
+  <imageWidth>52</imageWidth>
+  <imageHeight>77</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</Ash>
+
+<Pikachu>
+  <file>assets/pkc.png</file>
+  <bullet>lightning</bullet>
+  <startLoc x="227" y="382"/>
+  <frames>6</frames>
+  <imageWidth>46.5</imageWidth>
+  <imageHeight>38</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>150</distance>
+  </chunk>
+</Pikachu>
+
+<PikachuLeft>
+  <file>assets/pkcLeft.png</file>
+  <startLoc x="227" y="240"/>
+  <frames>6</frames>
+  <imageWidth>46.5</imageWidth>
+  <imageHeight>38</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</PikachuLeft>
+
+<lightning>
+  <file>assets/lightning.png</file>
+  <interval>200</interval>
+  <distance>320</distance>
+  <startLoc x="100" y="100"/>
+  <minSpeedX>1000</minSpeedX>
+  <speedX>1000</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+  <transparency>true</transparency>
+</lightning>
+
+<playerMaxSpeed>800</playerMaxSpeed>
+
+<playerAcceleration>400</playerAcceleration>
+
+<playerDamping>0.9</playerDamping>
+
+<HUD>
+  <life>3</life>
+  <lines>5</lines>
+  <line1>-Rescue Ash-</line1>
+  <line2>Press A, D to move.</line2>
+  <line3>Press space to jump.</line3>
+  <line4>Press J to shoot.</line4>
+  <line5>Press G to God mode.</line5>
+</HUD>
+
+</GameData>

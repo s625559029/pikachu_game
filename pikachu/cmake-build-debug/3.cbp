@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ysun3/6160/5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ysun3/6160/5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ysun3/6160/5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3">
+				<Option output="/home/ysun3/6160/5/cmake-build-debug/3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ysun3/6160/5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3/fast">
+				<Option output="/home/ysun3/6160/5/cmake-build-debug/3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ysun3/6160/5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ysun3/6160/5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ysun3/6160/5/tracker/HUD.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/HUD.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/bullet.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/bullet.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/chunk.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/chunk.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/clock.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/clock.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/collisionStrategy.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/collisionStrategy.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/drawable.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/engine.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/engine.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/explodingSprite.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/explodingSprite.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/frameGenerator.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/frameGenerator.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/gamedata.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/gamedata.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/image.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/image.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/imageFactory.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/imageFactory.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/ioMod.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/ioMod.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/main.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/multisprite.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/multisprite.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/parseXML.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/parseXML.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/player.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/player.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/renderContext.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/renderContext.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/smartSprite.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/smartSprite.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/sound.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/sound.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/sprite.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/sprite.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/spriteSheet.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/spriteSheet.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/twowayMultisprite.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/twowayMultisprite.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/vector2f.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/vector2f.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/viewport.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/viewport.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/world.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/tracker/world.h">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/ysun3/6160/5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
